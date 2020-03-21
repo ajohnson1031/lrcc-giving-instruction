@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "./imgs/tithely.png";
 import appStoreIcon from "./imgs/app-store.png";
 import playStoreIcon from "./imgs/play-store.png";
 import appScreenOne from "./imgs/app-screen-1.jpg";
@@ -10,7 +11,10 @@ function App() {
   return (
     <div className='App'>
       <header>
-        <h1>How To Make Your LRCC Contributions Electronically</h1>
+        <img src={logo} alt='Tithely logo' className='header-logo' />
+        <h1>
+          How To Make Your LRCC Contributions Electronically: A Tithely Tutorial
+        </h1>
       </header>
       <section className='intro'>
         <p className='intro-text'>
@@ -163,7 +167,7 @@ function App() {
               payment information (i.e., Credit Card, Debit Card, Bank
               Information, etc.). Here, you can also choose to cover the fees.{" "}
               <br />
-              <br /> <strong>NOTE:</strong> Leaving the{" "}
+              <br /> <span className='note'>NOTE:</span> Leaving the{" "}
               <strong>Cover Fees</strong> box unchecked means your offering or
               tithe will be lessened by the fees associated with the
               transaction.

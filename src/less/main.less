@@ -6,12 +6,18 @@
     padding: 25px;
     background-color: lightgreen;
     font-family: inherit;
+    display: flex;
+    align-items: center;
+
+    .header-logo {
+      width: 100px;
+      margin-right: 20px;
+    }
 
     h1 {
       font-size: 2rem;
-
+      width: calc(100% - 125px);
       @media screen and (max-width: 425px) {
-        width: 100%;
         font-size: 1.5rem;
       }
     }
@@ -128,5 +134,10 @@
   h2 {
     font-weight: bold;
     line-height: 125%;
+  }
+
+  .note {
+    color: darken(red, 10%);
+    font-weight: bold;
   }
 }

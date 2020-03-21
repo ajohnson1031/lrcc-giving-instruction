@@ -136,13 +136,19 @@ strong {
   padding: 25px;
   background-color: lightgreen;
   font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.App header .header-logo {
+  width: 100px;
+  margin-right: 20px;
 }
 .App header h1 {
   font-size: 2rem;
+  width: calc(100% - 125px);
 }
 @media screen and (max-width: 425px) {
   .App header h1 {
-    width: 100%;
     font-size: 1.5rem;
   }
 }
@@ -247,4 +253,8 @@ strong {
 .App h2 {
   font-weight: bold;
   line-height: 125%;
+}
+.App .note {
+  color: #cc0000;
+  font-weight: bold;
 }
