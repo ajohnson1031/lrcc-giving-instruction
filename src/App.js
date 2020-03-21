@@ -13,7 +13,8 @@ function App() {
       <header>
         <img src={logo} alt='Tithely logo' className='header-logo' />
         <h1>
-          How To Make Your LRCC Contributions Electronically: A Tithely Tutorial
+          How To Make Your LRCC Contributions Electronically: A Tithe.ly
+          Tutorial
         </h1>
       </header>
       <section className='intro'>
